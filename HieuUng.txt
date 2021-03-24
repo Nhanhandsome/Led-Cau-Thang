@@ -1,0 +1,12 @@
+
+#Công thức sáng từng bậc 1
+
+số led 1 bậc x bậc hiện tại + led hiện tại của bậc
+
+for( i = 0; i< số bậc ; i++){
+  for( j = 0; j< số led 1 bậc ; j++){
+      set_pixel(số led 1 bậc x bậc hiện tại(i) + led hiện tại của bậc(j), color);
+  }
+  delay(xxx); (timer)
+  show();
+}

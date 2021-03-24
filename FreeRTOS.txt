@@ -1,0 +1,11 @@
+
+Library #include <FreeRTOS.h>
+
+xTaskCreate(
+    toggleLED,    // Function that should be called     ############### Hàm (funtion) 
+    "Toggle LED",   // Name of the task (for debugging) ############### Tên của hàm (String)
+    1000,            // Stack size (bytes)              ############### Stack size
+    NULL,            // Parameter to pass               ############### 
+    1,               // Task priority                   ############### Độ ưu tiên
+    NULL             // Task handle                     ###############
+  );
