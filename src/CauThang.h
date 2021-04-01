@@ -20,4 +20,5 @@ void Back_to_font_off(void);
 void Font_to_Back_off(void);
 void Font_to_Back(void);
 void Ring(void);
+void off_font_to_mid(void);
 

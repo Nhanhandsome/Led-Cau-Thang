@@ -4,6 +4,7 @@
 //extern xTaskHandle timer;
 #define sensor1 13
 #define sensor2 15
+#define Time_delay 20000
 extern xTaskHandle CONTROL_TASK;
 extern xQueueHandle _Blynk_mess;
 extern xQueueHandle _Blynk_mess_color;

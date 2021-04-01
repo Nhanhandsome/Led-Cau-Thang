@@ -99,3 +99,13 @@ void Ring(void){
         delay(10);
     }
 }
+void off_font_to_mid(void){
+    for(uint16_t i =0 ;i<so_led_1_bac;i++){
+        for(uint16_t j = 0;j<so_bac;j++){
+            CauThang.setPixelColor(so_led_1_bac*j + i,0x000000);
+            CauThang.setPixelColor(so_led_1_bac*j + so_led_1_bac - i,0x000000);
+        }
+        delay(500);
+        CauThang.show();
+    }
+}
